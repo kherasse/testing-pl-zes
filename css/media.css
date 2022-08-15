@@ -1,0 +1,536 @@
+@media (max-width:767px) {
+    html,body {
+        width: 100%;
+        min-width: 320px;
+        overflow-x: hidden;
+    }
+    .p1-4, .p1-5, .p1-6, .box-5, .line-5 {
+        visibility: visible;
+    }
+    #page {
+        width: 100%;
+    }
+    .mobile-hidden {
+        display: none!important;
+    }
+    #top {
+        width: 100%;
+    }
+    #top a.logo {
+        width: 100%;
+        height: 37px;
+        cursor: pointer;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+        background: url("../images/logo.png") no-repeat top center;
+        background-size: auto 100%;
+    }
+    #top a.mailto {
+        float:right;
+        margin: 0 10px 0 -5px;
+        line-height: 24px;
+        padding: 0px 0 0 28px;
+    }
+    .phone {
+        float:left;
+    }
+    a.phone {
+        margin: 0 0 0 10px;
+        font-size: 15px;
+    }
+    #top-w {
+        width: 100%;
+        height: 90px;
+        position: relative;
+    }
+    #nav {
+        width: 100%;
+    }
+    #nav-w {
+        width: 100%;
+        display: none!important;
+    }
+
+    /*Box 1*/
+
+    #box-1 {
+        width: 320px;
+        padding: 0;
+        height: 500px;
+    }
+    #box-1 h1{
+        font-size: 24px;
+        line-height: 30px;
+        margin: 0 10px;
+        text-align: center;
+    }
+    #box-1-w {
+        width: 100%;
+        height: 500px;
+        background-size: auto 100%;
+    }
+    .formbox1 {
+        display: none!important;
+    }
+    .p1-1,.p1-2,.p1-3 {
+        display: none;
+    }
+    .home {
+        width: 100%;
+        height: 370px;
+        padding: 0;
+        margin: 0;
+        cursor: default;
+        background: url("../images/3.png") no-repeat top center;
+        background-size: 100%;
+        position: relative;
+        left: 0;
+        top: 0;
+        z-index: 5;
+    }
+    .p1-4,.p1-5,.p1-6{
+        display: none;
+    }
+
+    /*Box 2*/
+
+    #box-2-w {
+        width: 100%;
+    }
+    #box-2 {
+        width: 320px;
+        padding: 0 0 30px 0;
+    }
+    #box-2 h2 {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0 10px;
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+    #box-2 h4 {
+        font-family: "MuseoSansCyrl-300";
+        font-weight: normal;
+        font-style: normal;
+        text-align: left;
+        font-size: 22px;
+        line-height: 28px;
+        padding: 0;
+        margin: 20px 10px 30px 10px;
+        color: #000000;
+        cursor: default;
+    }
+    #box-2 h5 {
+        margin: 20px 0;
+    }
+    .nav-2-w {
+        width: 320px;
+        margin: 0 auto 20px auto;
+    }
+    .nav-2 {
+        margin: 0;
+        width: 160px;
+        outline: solid 1px #ccc;
+        padding: 130px 0 0 0;
+        height: 35px;
+    }
+    .box-2 {
+        width: 300px;
+        margin: 0 auto 0 auto;
+    }
+    .box-2-b {
+        width: 300px;
+        margin: 0 auto;
+        padding: 0 0 30px 0;
+    }
+    .h32-1 {
+        font-family: "MuseoSansCyrl-500";
+        font-weight: normal;
+        font-style: normal;
+        text-align: center;
+        font-size: 22px;
+        line-height: 80px;
+        width: 301px;
+        padding: 0;
+        margin: -1px 0 0 -1px;
+        color: #ffffff;
+        cursor: default;
+        position: relative;
+        background: #eb5475;
+        border-top-left-radius: 3px;
+        -webkit-border-top-left-radius: 3px;
+        -moz-border-top-left-radius: 3px;
+        -khtml-border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        -webkit-border-top-right-radius: 3px;
+        -moz-border-top-right-radius: 3px;
+        -khtml-border-top-right-radius: 3px;
+    }
+    .box-2-b2 {
+        width: 300px;
+        margin: 25px 0 25px 0;
+    }
+    .h32-2 {
+        width: 301px;
+    }
+    #box-2 p {
+        margin: 10px 5px 0 5px;
+        line-height: 16px;
+    }
+    /*Box 3*/
+
+    #box-3-w {
+        width: 100%;
+    }
+    #box-3 {
+        width: 320px;
+        padding: 75px 0 30px 0;
+    }
+    #box-3 p {
+        line-height: 16px;
+
+    }
+    #box-3 h2 {
+        margin: 0 10px;
+        text-align: center;
+    }
+    #box-3 h3 {
+        margin: 20px 20px 20px 20px;
+    }
+    #box-3 h4 {
+        margin: 10px 10px 10px 10px;
+    }
+    .box-3 {
+        width: 298px;
+        margin: 20px 10px 0 10px;
+        min-height: 0;
+    }
+    .box-3 img {
+        width: 300px;
+    }
+
+
+    /*Box 4*/
+
+    #box-4-w {
+        width: 100%;
+    }
+    #box-4 {
+        width: 320px;
+        padding: 70px 0 0 0;
+    }
+    #box-4 h2 {
+        margin: 0 10px 30px 10px;
+        text-align: center;
+    }
+    #box-4 h3 {
+        margin: 10px 0 10px 0;
+        font-size: 24px;
+    }
+    #box-4 p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .box-4-l,.box-4-2,.box-4-3,.box-4-4,.box-4-5,.box-4-6 {
+        width: 320px;
+    }
+    .box-4 {
+        width: 158px;
+        margin: 0;
+        padding: 5px 0 75px 0;
+        border: solid 1px #ccc;
+        font-size: 14px;
+    }
+    .box-4-r {
+        width: 300px;
+        padding: 25px 10px 55px 10px;
+    }
+    .b4-1,.b4-2,.b4-3,.b4-4,.b4-5,.b4-6 {
+        margin: 0;
+        padding: 25px 10px 25px 10px;
+        background-size: auto 100%;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    /*Box 5*/
+
+    #box-5 {
+        width: 100%;
+        margin: 0;
+        padding: 70px 0 50px 0;
+    }
+    .box-5-w {
+        width: 318px;
+        padding: 0;
+    }
+    #box-5-w {
+        width: 100%;
+    }
+    .box-5 {
+        width: 60%;
+    }
+    #box-5 h3 {
+        width: 200px;
+        margin: 0 0 5px 0;
+    }
+    #box-5 p {
+        width: 180px;
+    }
+    .line-5 {
+        width: 318px;
+    }
+    #box-5 h2 {
+        text-align: center;
+        font-size: 31px;
+        margin: 0 10px 30px 10px;
+    }
+    .box-5.box-5-1,.box-5.box-5-2,.box-5.box-5-3,.box-5.box-5-4,.box-5.box-5-5,.box-5.box-5-6 {
+        width: 200px;
+    }
+
+    /*Box 6*/
+
+    #box-6-w {
+        width: 100%;
+    }
+    #box-6 {
+        width: 320px;
+        padding: 70px 0 50px 0;
+    }
+    #box-6 h2 {
+        margin: 0 0 30px 0;
+        text-align: center;
+    }
+    #carousel {
+        width: 320px;
+    }
+    #carousel > div.caroufredsel_wrapper > ul {
+        width: 320px!important;
+    }
+    #carousel .next {
+        right: 0;
+    }
+    #carousel .prev {
+        left: 0;
+    }
+    #carousel li {
+        float: none;
+        margin: 0 auto 4px auto;
+    }
+
+    /*Box 7*/
+
+    #box-7-w {
+        width: 100%;
+    }
+    #box-7 {
+        width: 320px;
+        padding: 70px 0 20px 0;
+    }
+    #box-7 h2 {
+        margin: 0 10px;
+        text-align: center;
+    }
+    #box-7 h3 {
+        margin: 0 0 10px 0;
+    }
+    #box-7 h3 span {
+        margin: 0 0 15px 0;
+    }
+    .box-7 {
+        width: 275px;
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    .img7-1 {
+        width: 300px;
+        height: 180px;
+        overflow: hidden;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        list-style: none;
+        position: relative;
+        display: none;
+        background: url("../images/zoom.png") no-repeat center center #000000;
+    }
+    .img7-2 {
+        width: 275px;
+        height: 180px;
+        overflow: hidden;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        list-style: none;
+        position: relative;
+        background: url("../images/zoom.png") no-repeat center center #000000;
+    }
+    .line-7 {
+        width: 295px;
+        margin: 10px auto 10px -10px;
+    }
+    #box-7 p {
+        margin: 20px 0 0 0;
+    }
+    #box-7 p::before {
+        display: none;
+    }
+    #box-7 h5 {
+        margin: 0 0 10px 0;
+    }
+    #box-7 p::after {
+        display: none;
+    }
+
+    /*Box 8*/
+
+    #box-8-w {
+        width: 100%;
+        background: none;
+    }
+    #box-8 {
+        width: 320px;
+        padding: 0;
+    }
+    .formbox2 {
+        width: 320px;
+        padding: 0px 0 10px 0;
+    }
+    #box-8 h2 {
+        margin: 10px;
+        text-align: center;
+    }
+    #box-8 h4 {
+        margin: 20px 10px 10px 10px;
+    }
+    #box-8 h5 {
+        display: none;
+    }
+    .formbox2-p {
+        font-family: "MuseoSansCyrl-300";
+        font-weight: normal;
+        font-style: normal;
+        text-align: left;
+        font-size: 16px;
+        line-height: 20px;
+        width: 270px;
+        padding: 0;
+        margin: 20px auto 0 auto;
+    }
+    .formbox2 input
+    {
+        margin: 0 auto 0 auto;
+        float: none;
+    }
+    .formbox2 textarea {
+        margin: 0 auto 0 auto;
+        float: none;
+    }
+    .submit2 {
+        width: 270px;
+        margin: 20px auto 0 auto;
+        float: none;
+    }
+
+    /*Box 9*/
+
+    #box-9-w {
+        width: 100%;
+        background-size: auto;
+    }
+    #box-9 {
+        padding: 70px 0 20px 0;
+        width: 320px;
+    }
+    #box-9 h2 {
+        margin: 0 10px;
+        text-align: center;
+    }
+    #box-9 h4 {
+        margin: 10px;
+    }
+    .box-9 {
+        width: 158px;
+        float: left;
+        margin: 0;
+        min-height: 0;
+        padding: 148px 0 20px 0;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .box-9-1,.box-9-2,.box-9-3,.box-9-4 {
+        background-size: auto 100%;
+    }
+    .box-9-3 {
+        padding-top: 130px;
+    }
+
+    /*Box 10*/
+
+    #box-10-w {
+        width: 100%;
+        background: #fff;
+    }
+    #box-10 h2 {
+        width: 300px;
+        margin: 10px;
+        font-size: 34px;
+        text-align: center;
+    }
+    #box-10 h4 {
+        width: 300px;
+        margin: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .p10-1,.p10-2,.p10-3 {
+        width: 240px;
+        float: none;
+        margin: 10px 10px 20px 15px;
+    }
+
+    #box-10 {
+        width: 320px;
+        padding: 70px 0 20px 0;
+    }
+
+    /*z*/
+    .z-box {
+        width: 318px;
+        margin-left: -159px;
+        margin-top: -210px;
+    }
+    .formbox {
+        width: 300px;
+        padding: 30px 0 20px 0;
+    }
+    .formbox-p {
+        margin: 20px 20px 0 20px;
+        width: 260px;
+    }
+    .formbox-title {
+        font-size: 20px;
+    }
+    .formbox input {
+        margin: 0 10px 0 10px;
+        float: none;
+    }
+    .submit {
+        margin: 20px 20px 10px 15px;
+    }
+    .submit input {
+        width: 90%;
+    }
+    .close::before,.close::after {
+        background: #624f4b;
+    }
+    .close {
+        right: 10px;
+        top: 0;
+    }
+
+}
